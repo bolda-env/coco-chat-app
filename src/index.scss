@@ -1,0 +1,24 @@
+// External
+@use "./theme/sign_up";
+@use "./theme/utility";
+@use "./theme/useMedia";
+
+/************************/
+/* INIT SETUP */
+/************************/
+*,
+::before,
+::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #ffffff;
+}
